@@ -7,10 +7,23 @@
     <groupId>com.github</groupId>
     <artifactId>github-package-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>package-demo</name>
+    <url>http://maven.apache.org</url>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub sujithramanathan maven packages</name>
+            <url>https://maven.pkg.github.com/Alan-Solutions/github-package-demo</url>
+        </repository>
+    </distributionManagement>
 
 </project>
