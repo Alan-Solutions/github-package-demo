@@ -22,7 +22,7 @@
         <repository>
             <id>github</id>
             <name>GitHub sujithramanathan maven packages</name>
-            <url>https://maven.pkg.github.com/Alan-Solutions/github-package-demo</url>
+            <url>https://maven.pkg.github.com/sujithramanathan/github-package-demo</url>
         </repository>
     </distributionManagement>
 
