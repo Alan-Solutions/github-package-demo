@@ -1,2 +1,5 @@
 .idea
 github-package-demo.iml
+*.lst
+target
+.DS_Store
